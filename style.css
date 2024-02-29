@@ -1,0 +1,118 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@20;300;400;500;600;700;800;900&display=swap"); */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.navHover:hover{
+    color:hsl(145, 63%, 42%) !important;
+}
+
+.bgimage {
+    background-image: url(images/bg\ image\ header.jpg);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    background-position:center;
+}
+
+input::placeholder {
+    color: black !important;
+}
+
+.gridbg {
+    box-shadow: 0 0 20px 0 rgba(112, 121, 138, .18);
+    background-color: rgba(240, 248, 255, 0.616);
+    border-radius: 5%;
+}
+.boxShadow {
+    box-shadow: 0 0 20px 0 rgba(112, 121, 138, .18);
+} 
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    background: hsla(0, 0%, 100%, .1);
+    border-radius: 4% 50%;
+    color: #fff;
+    font-size: 32px;
+    height: 100px;
+    line-height: 100px;
+    margin: 50px auto auto;
+    width: 100px;
+}
+
+.smallFont {
+    font-size: smaller;
+}
+
+.tik {
+    margin-left: -30px !important;
+}
+
+.input-border {
+    border: 1px solid rgba(128, 128, 128, 0.315);
+
+}
+
+.overlay {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+
+.overlay::after {
+    background: rgba(15, 28, 47, .3);
+    border-radius: 5px;
+    height: 210px;
+    width: 360px;
+    content: "";
+    left: 0;
+    margin:25px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+#relative {
+    position: relative;
+}
+.bgOpacity{
+    position:relative;
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+    margin-top:50px;
+    background-position:center;
+    z-index:1;
+}
+
+.bgOpacity::after{
+    background:rgba(17,40,72,.629) !important;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height:280px;
+    width:100%;
+    z-index:-1;
+}
+.aboutBg{
+    background-image: url(images/aboutBgImage.jpg);
+}
+.pricingContactBg{
+    background-image: url(images/pricingcontactBg.jpg);
+}
+.servicesBg{
+    background-image:url(images/servicesBg.jpg);
+}
